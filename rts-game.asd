@@ -3,6 +3,6 @@
   :author "Michael Barz <mbarz6@gmail.com>"
   :version "0.0.1"
   :serial t
-  :depends-on (#:usocket)
+  :depends-on (#:usocket #:uiop)
   :components ((:file "package")
                (:file "src/renderer")))

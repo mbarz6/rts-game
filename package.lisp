@@ -1,4 +1,3 @@
 (defpackage #:rts-game
-  (:use #:cl #:usocket)
-  (:export :create-server
-           :create-client))
+  (:use #:cl #:usocket #:uiop)
+  (:export :test-render))
